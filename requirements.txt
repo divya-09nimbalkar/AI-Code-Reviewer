@@ -1,0 +1,16 @@
+# ── Core Generative AI & Static Analysis ─────────────────────
+google-generativeai>=0.8.0
+radon>=6.0.0
+pylint>=3.0.0
+pyflakes>=3.2.0
+bandit>=1.7.0
+
+# ── Application UI Framework ───────────────────────────────
+gradio>=4.40.0
+
+# ── Data Processing & Visualizations ───────────────────────
+pandas>=2.2.0
+matplotlib>=3.8.0
+
+# ── Terminal Utilities ─────────────────────────────────────
+rich>=13.7.0
