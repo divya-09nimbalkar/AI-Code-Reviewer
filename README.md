@@ -26,14 +26,11 @@
 
 ##  Overview
 
-The **AI Code Reviewer** addresses the shortcomings of traditional code linters. Instead of just highlighting missing commas, it combines strict rules-based processing with an LLM reasoning engine to parse security risks down to the exact line number, map cyclomatic metrics, and completely rebuild complex nested code loops into modern, readable formats.
+The **AI Code Reviewer addresses the shortcomings of traditional code linters. Instead of just highlighting missing commas, it combines strict rules-based processing with an LLM reasoning engine to parse security risks down to the exact line number, map cyclomatic metrics, and completely rebuild complex nested code loops into modern, readable formats.
 
 ---
 
 ##  System Architecture
-
-
-```
 
 Target Raw Code Input
 │
