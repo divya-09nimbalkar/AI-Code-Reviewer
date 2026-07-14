@@ -1,17 +1,17 @@
 
 ```markdown
-# 🔍 AI Code Reviewer
+#  AI Code Reviewer
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 [![Google Gemini](https://img.shields.io/badge/Google_Gemini-2.5--flash-blueviolet.svg)](https://aistudio.google.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production_Ready-brightgreen.svg)]()
 
-> 🚀 A hybrid code auditing engine built inside an interactive Jupyter Notebook. It seamlessly bridges local static analysis (AST branch parsing & regular expression security scanners) with Google Gemini 2.5-Flash contextual understanding to catch logic bugs, quantify maintainability indexes, plot risk distributions, and generate safe, refactored clean code alternatives.
+>  A hybrid code auditing engine built inside an interactive Jupyter Notebook. It seamlessly bridges local static analysis (AST branch parsing & regular expression security scanners) with Google Gemini 2.5-Flash contextual understanding to catch logic bugs, quantify maintainability indexes, plot risk distributions, and generate safe, refactored clean code alternatives.
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 - [Overview](#overview)
 - [System Architecture](#system-architecture)
 - [Key Features](#key-features)
@@ -24,13 +24,13 @@
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 The **AI Code Reviewer** addresses the shortcomings of traditional code linters. Instead of just highlighting missing commas, it combines strict rules-based processing with an LLM reasoning engine to parse security risks down to the exact line number, map cyclomatic metrics, and completely rebuild complex nested code loops into modern, readable formats.
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 
 ```
@@ -55,7 +55,7 @@ Target Raw Code Input
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 * **Advanced Structural AST Inspections:** Traverses abstract syntax trees locally to reliably compute functional complexity weights without needing to execute the code.
 * **Forced JSON Validation:** Leverages the Gemini API `response_mime_type` structural control configurations to guarantee predictable, zero-error execution parsing loops.
@@ -65,7 +65,7 @@ Target Raw Code Input
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **AI Code Auditor Platform:** Google Gemini 2.5-Flash (`google-generativeai`)
 * **Static Grammar Compilation:** Native Python Abstract Syntax Trees (`ast` library)
@@ -75,26 +75,26 @@ Target Raw Code Input
 
 ---
 
-## 📊 Jupyter Cell Sequence Blueprint
+##  Jupyter Cell Sequence Blueprint
 
 The notebooks follow a linear, 6-cell pipeline configuration:
 
 | Cell # | Type | Module Target Context | Technical Operational Purpose |
 | :--- | :--- | :--- | :--- |
-| **Cell 1** | 📝 Markdown | **Documentation Cover** | System summary badges, feature indexes, and architectural roadmap layouts. |
-| **Cell 2** | 💻 Code | **Package Downloads** | Silent installations (`%pip install`) of GenAI frameworks, radon, and visual tools. |
-| **Cell 3** | 💻 Code | **Global Initializations** | Imports, data schema blueprints (`CodeIssue`, `ReviewReport`), and environment key configurations. |
-| **Cell 4** | 💻 Code | **Static Logic Analyzer** | Implements the core `StaticAnalyzer` regex tracking patterns and branch counting equations. |
-| **Cell 5** | 💻 Code | **Deep AI Reviewer Class** | Defines `AICodeReviewer` handling native JSON queries, score weightings, and baseline terminal prints. |
-| **Cell 6** | 💻 Code | **Gradio Interface App** | Combines all underlying tools into an independent browser UI, launching the local host server thread. |
+| **Cell 1** |  Markdown | **Documentation Cover** | System summary badges, feature indexes, and architectural roadmap layouts. |
+| **Cell 2** |  Code | **Package Downloads** | Silent installations (`%pip install`) of GenAI frameworks, radon, and visual tools. |
+| **Cell 3** |  Code | **Global Initializations** | Imports, data schema blueprints (`CodeIssue`, `ReviewReport`), and environment key configurations. |
+| **Cell 4** |  Code | **Static Logic Analyzer** | Implements the core `StaticAnalyzer` regex tracking patterns and branch counting equations. |
+| **Cell 5** |  Code | **Deep AI Reviewer Class** | Defines `AICodeReviewer` handling native JSON queries, score weightings, and baseline terminal prints. |
+| **Cell 6** |  Code | **Gradio Interface App** | Combines all underlying tools into an independent browser UI, launching the local host server thread. |
 
 ---
 
-## ⚙️ Installation & Local Setup
+##  Installation & Local Setup
 
 ### 1. Clone the Workspace Directory
 ```bash
-git clone [https://github.com/yourusername/AI_Code_Reviewer.git](https://github.com/yourusername/AI_Code_Reviewer.git)
+git clone [https://github.com/divya-09nimbalkar/AI_Code_Reviewer.git](https://github.com/yourusername/AI_Code_Reviewer.git)
 cd AI_Code_Reviewer
 
 ```
@@ -130,7 +130,7 @@ os.environ["GEMINI_API_KEY"] = "AIzaSyYourSecretKeyStringHere"
 
 ---
 
-## 🚀 How to Run the Gradio App
+##  How to Run the Gradio App
 
 1. Launch your local notebook instance:
 ```bash
@@ -145,7 +145,7 @@ jupyter notebook
 
 ---
 
-## 📁 Project Directory Structure
+##  Project Directory Structure
 
 ```text
 AI_Code_Reviewer/
@@ -160,7 +160,7 @@ AI_Code_Reviewer/
 
 ---
 
-## 📊 Evaluation Diagnostic Metrics
+##  Evaluation Diagnostic Metrics
 
 | Assessment Target Metric | Measured Standard Value | Functional Tracking Context |
 | --- | --- | --- |
@@ -170,10 +170,6 @@ AI_Code_Reviewer/
 
 ---
 
-## 👤 Author
+##  Author
 
 **Divya** — AI/ML Developer | B.Tech Electronics & Telecom
-
-```
-
-```
